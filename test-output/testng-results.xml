@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[enterUsernametomsmith[[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[enterPasswordSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[clickOnLoginButton[[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> tag name: i]]]>
+    </line>
+    <line>
+      <![CDATA[getTextSecureArea[[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> xpath: //body[1]/div[2]/div[1]/div[1]/h2[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_16_01_40_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_16_01_40_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[validUsernametomsmith[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[invalidPasswordSuperSecretPassword[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[clickOnLoginButton2[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> tag name: i]]]>
+    </line>
+    <line>
+      <![CDATA[getErrorMessageForInvalidPassword[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> xpath: //div[@id='flash-messages']//div[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyThePasswordErrorMessageMon_Dec_12_16_01_45_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyThePasswordErrorMessageMon_Dec_12_16_01_45_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[invalidUsernametomsmith1[[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[validPasswordSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[clickOnLoginButton1[[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> tag name: i]]]>
+    </line>
+    <line>
+      <![CDATA[getErrorMessage[[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> xpath: //div[@id='flash-messages']//div[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyTheUsernameErrorMessageMon_Dec_12_16_01_48_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyTheUsernameErrorMessageMon_Dec_12_16_01_49_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="14172" started-at="2022-12-12T16:01:35 GMT" finished-at="2022-12-12T16:01:49 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="verifyThePasswordErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="14172" started-at="2022-12-12T16:01:35 GMT" finished-at="2022-12-12T16:01:49 GMT">
+      <class name="com.herokuapp.internet.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="4116" started-at="2022-12-12T16:01:35 GMT" finished-at="2022-12-12T16:01:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="19" started-at="2022-12-12T16:01:40 GMT" finished-at="2022-12-12T16:01:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="UserShouldLoginSuccessfullyWithValidCredentials" duration-ms="480" started-at="2022-12-12T16:01:40 GMT" finished-at="2022-12-12T16:01:40 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[enterUsernametomsmith[[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[enterPasswordSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[clickOnLoginButton[[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> tag name: i]]]>
+            </line>
+            <line>
+              <![CDATA[getTextSecureArea[[ChromeDriver: chrome on WINDOWS (f308b429ac7a8a480beb3f25a697bad5)] -> xpath: //body[1]/div[2]/div[1]/div[1]/h2[1]]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_16_01_40_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_16_01_40_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="631" started-at="2022-12-12T16:01:40 GMT" finished-at="2022-12-12T16:01:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="3238" started-at="2022-12-12T16:01:41 GMT" finished-at="2022-12-12T16:01:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="2" started-at="2022-12-12T16:01:44 GMT" finished-at="2022-12-12T16:01:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="verifyThePasswordErrorMessage" duration-ms="378" started-at="2022-12-12T16:01:44 GMT" finished-at="2022-12-12T16:01:45 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[validUsernametomsmith[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[invalidPasswordSuperSecretPassword[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[clickOnLoginButton2[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> tag name: i]]]>
+            </line>
+            <line>
+              <![CDATA[getErrorMessageForInvalidPassword[[ChromeDriver: chrome on WINDOWS (afd0ca5d02c70066a53b7b487bb730de)] -> xpath: //div[@id='flash-messages']//div[1]]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyThePasswordErrorMessageMon_Dec_12_16_01_45_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyThePasswordErrorMessageMon_Dec_12_16_01_45_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="602" started-at="2022-12-12T16:01:45 GMT" finished-at="2022-12-12T16:01:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2323" started-at="2022-12-12T16:01:45 GMT" finished-at="2022-12-12T16:01:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="3" started-at="2022-12-12T16:01:48 GMT" finished-at="2022-12-12T16:01:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="verifyTheUsernameErrorMessage" duration-ms="523" started-at="2022-12-12T16:01:48 GMT" finished-at="2022-12-12T16:01:48 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidUsernametomsmith1[[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[validPasswordSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[clickOnLoginButton1[[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> tag name: i]]]>
+            </line>
+            <line>
+              <![CDATA[getErrorMessage[[ChromeDriver: chrome on WINDOWS (1bcf9a4ce7e85b7423dcf20a24e7a563)] -> xpath: //div[@id='flash-messages']//div[1]]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyTheUsernameErrorMessageMon_Dec_12_16_01_48_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-herokuapp-wk-15-virenpatel/test-output/html/verifyTheUsernameErrorMessageMon_Dec_12_16_01_49_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="681" started-at="2022-12-12T16:01:49 GMT" finished-at="2022-12-12T16:01:49 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.testsuite.LoginPageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
